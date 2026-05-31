@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>73 House Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin:0; text-align:center; font-family:Arial;">
+
+<div id="preload">
+  <img src="menu.jpg" style="width:100%;">
+</div>
+
+<div id="menu" style="display:none;">
+  <img src="breakfast.jpg" style="width:100%;">
+  <img src="lunch.jpg" style="width:100%;">
+  <img src="dinner.jpg" style="width:100%;">
+
+  <h2>Food Suggestions</h2>
+
+  <p>Please share your suggestions with the management.</p>
+
+</div>
+
+<script>
+setTimeout(function() {
+  document.getElementById("preload").style.display = "none";
+  document.getElementById("menu").style.display = "block";
+}, 3000);
+</script>
+
+</body>
+</html>
